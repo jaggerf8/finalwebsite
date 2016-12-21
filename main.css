@@ -106,7 +106,7 @@ ul {
 position:absolute;
 float:left;
 top:0;
-
+margin-top:8px;
 width:86px;
 height:86px;
 }
@@ -120,13 +120,26 @@ height:86px;
   color: #9FA802;
 }
 
-#main_content{
-width:545px;
-padding-left:24px;
-padding-right:24px;
+#content{
+clear:both;
+width:593px;
 float: left;
 font-size:19px;
 line-height: 28px;
+text-align:left;
+}
+
+#sidebar {
+width:367px;
+float: left;
+font-size:19px;
+line-height: 28px;
+text-align:center;
+background-color: #9FA802;
+margin-top:31px;
+}
+#sidebar img{
+width:367px;
 }
 #banner img {
   width: 100%;
@@ -134,5 +147,13 @@ line-height: 28px;
 #footer {
   background-color:#887504;
   clear: both;
+}
+
+#contact {
+width:960px;
+float: left;
+font-size:19px;
+line-height: 28px;
+text-align:left;
 }
 
