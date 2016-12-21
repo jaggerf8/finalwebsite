@@ -92,6 +92,7 @@ ul {
   float:right;
   text-align:right;
   padding-right: 31px;
+  word-spacing:5px;
 }
 
 #menu a {
@@ -147,6 +148,8 @@ width:367px;
 #footer {
   background-color:#887504;
   clear: both;
+  text-align:center;
+  color: white;
 }
 
 #contact {
